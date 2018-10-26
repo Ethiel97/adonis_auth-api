@@ -27,6 +27,25 @@ class PostController {
 
   }
 
+  async update({auth, params, response}) {
+
+    let post = await Post.find(params.id)
+    post.title = request.input('title')
+    post.description = request.input('description');
+
+    await post.save()
+    await post.load('user');
+
+    return response.json(post)
+  }
+
+  async delete({auth, params, response}) {
+
+    await Post.find(params.id).delete()
+
+    return response.json({message: 'Post has been deleted'})
+  }
+
 }
 
 module.exports = PostController
