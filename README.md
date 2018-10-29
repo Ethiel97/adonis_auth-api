@@ -14,8 +14,6 @@ Make sure you have `npm` and `yarn` on your local machine
 ### Prerequisites
 
 * Adonis
-* Vue
-* Vuex
 * npm or Yarn
 * Pusher account
 
@@ -24,8 +22,5 @@ Make sure you have `npm` and `yarn` on your local machine
 
 * [Pusher channels](https://pusher.com/channels) - Pusher Channels
 * [Adonis](https://adonisjs.com/) - Beautiful Php framework
-* [Vue](https://vuejs.org/) - A Great reactive Js framework
-* [Vuex](https://vuejs.org/) - Vuejs state management made simple
-* [Bootstrap](https://getbootstrap.com) - A beautiful Css framework
-* [Axios](https://vuejs.org/) - A Js library to handle ajax requests easily
+
 
