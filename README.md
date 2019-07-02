@@ -17,6 +17,6 @@ Make sure you have `npm` and `yarn` on your local machine
 
 
 ## Built With
-* [Adonis](https://adonisjs.com/) - Beautiful Php framework
+* [Adonis](https://adonisjs.com/) - Beautiful NodeJs framework
 
 
