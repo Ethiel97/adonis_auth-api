@@ -35,8 +35,8 @@ jobs:
 
 
       - run:
-          name: Run app
-          command: npm start
+          name: Test app
+          command: adonis test
 
       - save_cache:
           paths:
